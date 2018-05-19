@@ -4,7 +4,9 @@
 }
 header {
 	display: block;
-	margin: 1rem 0 3rem 0;
+	background: #F4F5F7;
+	padding: 1rem 0;
+	margin: 0 0 2rem 0;
 }
 .rtmup-headshot {
 	float: right;
@@ -55,8 +57,7 @@ header {
 }
 .site-logo {
 	display: inline-block;
-	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.25rem;
 	font-family: Montserrat;
 	color: #333 !important;
 }
@@ -72,7 +73,7 @@ header {
 	display: block;
 	text-align: center;
 	background: none;
-	margin: .5rem 0 0 0;
+	margin: .25rem 0 0 0;
 	color: #191b22;
 	&:hover {
 		text-decoration: none;
@@ -128,6 +129,7 @@ header {
 					color: #3300FF;
 					text-decoration: none;
 					text-transform: uppercase;
+					vertical-align: top;
 					&:hover {
 						text-decoration: underline;
 					}
