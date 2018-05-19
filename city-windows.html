@@ -10,6 +10,167 @@ layout: default
 
 <p>Most of the shots you see on the site are totally unaltered scanned negatives.</p>
 
-<p>Photos coming soon.</p>
+<p><strong>Purchase Prints</strong></p>
+
+<p>Limited edition prints of all photos are available until they run out.</p>
+
+<ul>
+	<li>Hand-numbered "1/10" and signed by Ryan McKnight</li>
+    <li>Printed on 14x14” Hahnemühle Cotton Rag</li>
+    <li>Shot on medium format film</li>
+    <li>Set in custom black gallery frame with white mat by <a href="framebridge.com">Framebridge</a></li>
+    <li>Total size framed: 23.25 x 23.25”</li>
+</ul>
+</section>
 
 </section>
+
+<section class="shopify-collection">
+<div id='collection-component-dfa7727d351'></div>
+</section>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'ryan-mcknight-photography.myshopify.com',
+      apiKey: '94361b73f91ad0cc43343f0716e52216',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: 34520629366,
+        node: document.getElementById('collection-component-dfa7727d351'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "options": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#3300ff",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#3300ff",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#3300ff",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#3300ff",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
