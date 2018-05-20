@@ -4,61 +4,31 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow-y: scroll;
 }
-.gallery {
-	margin-top: 2.5rem;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-gap: 1rem;
-	h2 {
-		font-family: Merriweather;
-		font-size: 1rem;
-		font-weight: 700;
-		margin: 0;
-	}
-	p {
-		margin: .5rem 0 0 0;
-		font-size: .875rem;
-	}
-	.card-bg-img {
-		height: 200px;
-		width: 100%;
-		background-size: cover;
-		background-position: center center;
-	}
-	figure {
-		grid-column: span 12;
-		margin-bottom: 2.5rem;
-		transition: all .2s ease;
-		border: 1px solid #e9ecef;
-		width: 100%;
-		figcaption {
-			margin: 0;
-			padding: 1.25rem;
-		}
-		&:hover {
-		    -webkit-box-shadow: 3px 3px 30px -2px rgba(153,153,153,.5);
-		    -moz-box-shadow: 3px 3px 30px -2px rgba(153,153,153,.5);
-		    box-shadow: 3px 3px 30px -2px rgba(153,153,153,.5);
-		    -webkit-transform: translateY(-2px);
-		    transform: translateY(-2px);
-		}
-	}
-	a {
-		&:hover {
-			text-decoration: none;
-		}
+p, li {
+	color: #44464f;
+	font-size: 1.25rem;
+	font-weight: 400;
+	line-height: 1.6;
+}
+p {
+	margin-bottom: 1.5rem;
+}
+li {
+	margin-bottom: .5rem;
+}
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
 	}
 }
-.shopify-collection {
-	padding: .5rem;
+img {
+	max-width: 100%;
 }
-.shopify-buy__product {
-	margin-bottom: 2rem;
-}
-.home {
-	h1 {
-		margin-bottom: 3rem;
-	}
+
+// headers
+h1, h2, h3, h4, h5 {
+	font-weight: 600;
 }
 h1 {
 	margin: .5rem 0 1rem 0;
@@ -73,14 +43,8 @@ h3 {
 ul, ol {
 	margin-left: 1.5rem;
 }
-th, td {
-	text-align: left;
-	padding: 1rem 0;
-}
-h1, h2, h3, h4, h5 {
-	color: #191b22;
-	font-weight: 600;
-}
+
+// tables
 table {
 	font-size: .875rem;
 	width: 100%;
@@ -106,28 +70,12 @@ table {
 .table-striped>tbody>tr:nth-child(odd)>th {
 	background-color: #f6f7f8; 
 }
-p, li {
-	color: #44464f;
-	font-size: 1.25rem;
-	font-weight: 400;
-	line-height: 1.6;
+th, td {
+	text-align: left;
+	padding: 1rem 0;
 }
-p {
-	margin-bottom: 1.5rem;
-}
-li {
-	margin-bottom: .5rem;
-}
-img {
-	max-width: 100%;
-}
-a {
-	color: #3300FF;
-	text-decoration: none;
-	&:hover {
-		text-decoration: underline;
-	}
-}
+
+// figures
 figure {
 	max-width: 100%;
 	margin: 0 auto 2.5rem auto !important;
@@ -162,7 +110,6 @@ main {
     padding-bottom: 90px; /* must be same height as the footer */
     margin: 0 auto;
 }
-
 
 // dividers
 .small-divider {
@@ -205,11 +152,12 @@ hr.style-eight { /* Glyph, by Harry Roberts */
     box-sizing: border-box;
 }
 
-// image styling
+// image
 .img-border {
 	border: solid 1px #ccc;
 }
 
+// blockquote
 blockquote {
 	color: #3300FF;
 	font-size: 1.5rem;
@@ -228,17 +176,17 @@ blockquote {
 		letter-spacing: 1px;
 	}
 }
+
+// card
+.card-bg-img {
+	background-size: cover;
+	background-position: center center;
+	height: 200px;
+	width: 100%;
+}
+
 // medium screen size up
 @media (min-width: 600px ) {
-	.gallery {
-		grid-gap: 2rem;
-		figure {
-			grid-column: span 6;
-		}
-	}
-	.shopify-collection {
-		margin: 2rem;
-	}
 	p, li {
 		font-size: 1.25rem;
 	}

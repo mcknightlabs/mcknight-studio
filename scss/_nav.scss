@@ -4,13 +4,9 @@
 }
 header {
 	display: block;
-	background: #F4F5F7;
+	background: #000;
 	padding: 1rem 0;
-	margin: 0 0 2rem 0;
-}
-.rtmup-headshot {
-	float: right;
-	margin: 0 0 1rem 1rem;
+	margin: 0;
 }
 
 // top nav
@@ -45,27 +41,32 @@ header {
 				padding: 0.8em;
 				letter-spacing: 1px;
 				&:hover {
-					background: #3300FF;
+					background: #000;
 				}
 				&:active {
-					background: #3300FF;
+					background: #000;
 					color: #fff;
 				}
 			}
 		}
 	}
 }
-.site-logo {
+.site-name {
 	display: inline-block;
-	font-size: 1.25rem;
+	font-size: .875rem;
 	font-family: Montserrat;
-	color: #333 !important;
+	font-weight: 600;
+	color: #fff;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.site-subname {
+	font-weight: 100;
 }
 .menu-wrapper {
-	background: #F4F5F7;
+	background: #000;
 	padding: 1rem 0.9375rem;
-	border-bottom: solid 1px #ccc;
-	margin-bottom: 2.5rem;
 }
 .main-menu-btn {
 	text-transform: uppercase;
@@ -73,8 +74,7 @@ header {
 	display: block;
 	text-align: center;
 	background: none;
-	margin: .25rem 0 0 0;
-	color: #191b22;
+	color: #fff;
 	&:hover {
 		text-decoration: none;
 	}
@@ -126,7 +126,7 @@ header {
 				a {
 					font-size: 1rem;
 					padding: 0;
-					color: #3300FF;
+					color: #fff;
 					text-decoration: none;
 					text-transform: uppercase;
 					vertical-align: top;
@@ -137,9 +137,10 @@ header {
 			}
 		}
 	}
-	.site-logo {
+	.site-name {
 		float: none;
-		color: #3300FF;
+		color: #fff;
+		font-size: 1.25rem;
 	}
 	.header {
 		display: block;

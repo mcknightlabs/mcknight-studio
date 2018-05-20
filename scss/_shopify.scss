@@ -1,0 +1,13 @@
+.shopify-collection {
+	padding: .5rem;
+}
+.shopify-buy__product {
+	margin-bottom: 2rem;
+}
+
+// medium screen size up
+@media (min-width: 600px ) {
+	.shopify-collection {
+		margin: 2rem;
+	}
+}
