@@ -370,6 +370,9 @@ p, li {
   font-weight: 400;
   line-height: 1.6; }
 
+.logo {
+  max-height: 32px; }
+
 p {
   margin-bottom: 1.5rem; }
 
@@ -597,7 +600,7 @@ header {
   text-decoration: none; }
 
 .site-subname {
-  font-weight: 100; }
+  font-weight: 400; }
 
 .menu-wrapper {
   background: #000;
