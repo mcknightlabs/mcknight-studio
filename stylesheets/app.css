@@ -367,7 +367,6 @@ body {
 p, li {
   color: #44464f;
   font-size: 1.25rem;
-  font-weight: 400;
   line-height: 1.6; }
 
 .logo {
@@ -573,6 +572,7 @@ header {
   list-style-type: none;
   text-transform: uppercase;
   display: block;
+  font-weight: 600;
   margin: 0;
   text-align: center; }
 .top-nav ul li .menu-link {
@@ -599,9 +599,6 @@ header {
   color: #fff; }
 .site-name:hover {
   text-decoration: none; }
-
-.site-subname {
-  font-weight: 400; }
 
 .menu-wrapper {
   background: #000;

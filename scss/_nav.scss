@@ -28,6 +28,7 @@ header {
 			list-style-type: none;
 			text-transform: uppercase;
 			display: block;
+			font-weight: 600;
 			margin: 0;
 			text-align: center;
 			.menu-link {
@@ -60,9 +61,6 @@ header {
 	&:hover {
 		text-decoration: none;
 	}
-}
-.site-subname {
-	font-weight: 400;
 }
 .menu-wrapper {
 	background: #000;
