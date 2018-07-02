@@ -28,9 +28,11 @@ header {
 			list-style-type: none;
 			text-transform: uppercase;
 			display: block;
-			font-weight: 600;
 			margin: 0;
 			text-align: center;
+			a {
+				font-weight: 600;
+			}
 			.menu-link {
 				border-bottom: solid 1px #fff;
 				text-decoration: none;
