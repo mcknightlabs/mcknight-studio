@@ -751,7 +751,7 @@ form button:hover {
   font-size: .875rem;
   margin-bottom: .5rem; }
 
-article p, article ul, article ol, article h1, article h2, article h3, article h4, article h5, article blockquote, article figcaption {
+article p, article ul, article ol, article h1, article h2, article h3, article h4, article h5, article blockquote, article figcaption, article iframe {
   padding: 0 0.9375rem; }
 article ul, article ol {
   margin-left: 1.5rem; }
@@ -908,8 +908,7 @@ article .meta, article.b .meta {
   grid-template-columns: repeat(12, 1fr);
   margin: 2.5rem auto 0 auto;
   max-width: 45rem;
-  width: 100%;
-  padding: 0 1.5rem; }
+  width: 100%; }
 .gallery a:hover {
   text-decoration: none; }
 .gallery p {
