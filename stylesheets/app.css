@@ -359,14 +359,14 @@ template {
   display: none; }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Ovo', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll; }
 
 p, li {
-  color: #44464f;
-  font-size: 1.25rem;
+  color: #000;
+  font-size: 1.125rem;
   line-height: 1.6; }
 
 .logo {
@@ -380,6 +380,7 @@ li {
   margin-bottom: .5rem; }
 
 a {
+  color: #3300FF;
   text-decoration: none; }
 a:hover {
   text-decoration: underline; }
@@ -388,7 +389,8 @@ img {
   max-width: 100%; }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: Raleway, sans-serif; }
 
 h1 {
   margin: .5rem 0 1rem 0; }
@@ -432,13 +434,13 @@ th, td {
 
 figure {
   max-width: 100%;
-  margin: 0 auto 2.5rem auto !important; }
+  margin: 0 auto 1.5rem auto; }
 figure.graphic {
   max-width: 720px; }
 figure figcaption {
+  color: #000;
   margin-top: .5rem;
   font-size: .875rem;
-  color: #717584;
   line-height: 1.3; }
 figure img {
   display: block;
@@ -523,9 +525,6 @@ blockquote p, blockquote citation, blockquote citation a, blockquote li {
   width: 100%; }
 
 @media (min-width: 600px) {
-  p, li {
-    font-size: 1.25rem; }
-
   figure {
     max-width: 45rem; }
   figure iframe {
@@ -795,8 +794,8 @@ article, article.b {
   	text-align: center;
   }*/ }
 article h1, article h2, article.b h1, article.b h2 {
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 1.675rem;
+  font-weight: 700;
   margin: 3.5rem 0 1rem 0;
   line-height: 1.5; }
 article h3, article.b h3 {
@@ -828,7 +827,7 @@ article .drop-cap, article.b .drop-cap {
   font-size: 2.5rem;
   float: left;
   margin: .5rem 1rem 0 0;
-  font-weight: 800;
+  font-weight: 700;
   padding: .675rem 1.5rem;
   border: solid 1px #ccc;
   background: #F4F5F7; }
@@ -915,13 +914,13 @@ article .meta, article.b .meta {
   font-size: .875rem;
   margin: .5rem 0 0 0; }
 .gallery h2 {
-  font-family: Merriweather, serif;
+  font-family: Raleway, sans-serif;
   font-size: 1rem;
   font-weight: 700;
   margin: 0; }
 .gallery figure {
   grid-column: span 12;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0rem;
   transition: all .2s ease;
   width: 100%; }
 .gallery figure figcaption {
