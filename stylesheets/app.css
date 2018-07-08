@@ -796,7 +796,7 @@ article, article.b {
 article h1, article h2, article.b h1, article.b h2 {
   font-size: 1.675rem;
   font-weight: 700;
-  margin: 3.5rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0;
   line-height: 1.5; }
 article h3, article.b h3 {
   font-size: 1.25rem;
