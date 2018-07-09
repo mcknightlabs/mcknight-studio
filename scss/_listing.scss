@@ -46,12 +46,12 @@
 	font-size: .875rem;
 	text-align: center;
 	text-decoration: none;
-	color: #3300FF;
-	border: solid 1px #3300FF;
+	color: $primary-color;
+	border: solid 1px $primary-color;
 	border-radius: 1rem;
 	text-transform: uppercase;
 	&:hover {
-		background: #3300FF;
+		background: $primary-color;
 		color: #fff;
 		text-decoration: none;
 	}

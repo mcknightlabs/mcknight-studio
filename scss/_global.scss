@@ -1,3 +1,6 @@
+// colors
+$primary-color: #3300FF;
+
 body {
 	font-family: 'Ovo', serif;
 	-webkit-font-smoothing: antialiased;
@@ -5,13 +8,8 @@ body {
 	overflow-y: scroll;
 }
 p, li {
-	color: #000;
 	font-size: 1.125rem;
 	line-height: 1.6;
-}
-.logo {
-	max-height: 15px;
-	vertical-align: middle;
 }
 p {
 	margin-bottom: 1.5rem;
@@ -20,7 +18,7 @@ li {
 	margin-bottom: .5rem;
 }
 a {
-	color: #3300FF;
+	color: $primary-color;
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
@@ -28,6 +26,12 @@ a {
 }
 img {
 	max-width: 100%;
+}
+
+// logo
+.logo {
+	max-height: 15px;
+	vertical-align: middle;
 }
 
 // headers
@@ -52,9 +56,9 @@ ul, ol {
 // tables
 table {
 	font-size: .875rem;
+	overflow-x: auto; /* Scrollbar is displayed as it's needed */
 	width: 100%;
-	overflow-x: auto;   /* Scrollbar is displayed as it's needed */
-	word-wrap:break-word;
+	word-wrap: break-word;
 	caption {
 		background: #000;
 		color: #fff;
@@ -63,11 +67,11 @@ table {
 		text-align: center;
 		text-transform: uppercase;
 		.details {
-			text-transform: none;
-			margin-top: .5rem;
 			display: block;
 			font-size: .875rem;
 			font-weight: 100;
+			margin-top: .5rem;
+			text-transform: none;
 		}
 	}
 }
@@ -76,44 +80,36 @@ table {
 	background-color: #f6f7f8; 
 }
 th, td {
-	text-align: left;
 	padding: 1rem 0;
+	text-align: left;
 }
 
 // figures
 figure {
-	max-width: 100%;
 	margin: 0 auto 1.5rem auto;
-	&.graphic {
-		max-width: 720px;
-	}
+	max-width: 100%;
 	figcaption {
-		color: #000;
-		margin-top: .5rem;
 		font-size: .875rem;
 		line-height: 1.3;
+		margin-top: .5rem;
 	}
 	img {
 		display: block;
 		margin: 0 auto;
 	}
-	&.photo {
-		&:first-of-type {
-			margin: 0 0 40px 0;
-		}
-		margin: 40px 0;
-	}
 	iframe {
+		height: auto;
 		margin: 0 auto;
 		width: 100%;
-		height: auto;
 	}
 }
+
+// main section
 main {
     clear: both;
+    margin: 0 auto;
     overflow:auto;
     padding-bottom: 90px; /* must be same height as the footer */
-    margin: 0 auto;
 }
 
 // dividers
@@ -144,27 +140,26 @@ hr.style-eight { /* Glyph, by Harry Roberts */
 	    top: -0.7em;  
     }   
 }
+
+// byline
 .byline {
 	display: block;
-	text-align:center;
 	margin-bottom: 2rem;
-}
-.comments {
-	max-width: 45rem;
-    width: 100%;
-    margin: 0 auto 3rem auto;
-    padding: 0 1rem 1rem 1rem;
-    box-sizing: border-box;
+	text-align: center;
 }
 
-// image
-.img-border {
-	border: solid 1px #ccc;
+// comments
+.comments {
+	box-sizing: border-box;
+    margin: 0 auto 3rem auto;
+    max-width: 45rem;
+    padding: 0 1rem 1rem 1rem;
+    width: 100%;
 }
 
 // blockquote
 blockquote {
-	color: #3300FF;
+	color: $primary-color;
 	font-size: 1.5rem;
 	line-height: 1.6;
 	margin: 20px 0 10px 0;
@@ -180,14 +175,6 @@ blockquote {
 	p, citation, citation a, li {
 		letter-spacing: 1px;
 	}
-}
-
-// card
-.card-bg-img {
-	background-size: cover;
-	background-position: center center;
-	height: 200px;
-	width: 100%;
 }
 
 // medium screen size up

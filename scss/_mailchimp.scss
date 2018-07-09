@@ -14,9 +14,9 @@
 	}
 	input.button {
 		width: 100% !important;
-		background-color: #3300FF;
+		background-color: $primary-color;
 		&:hover {
-			background-color: #3300FF;
+			background-color: $primary-color;
 		}
 	}
 	form.mcform {
