@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Scarce Art | Ice Cave Waterfall
-description: A waterfall within the Mendenhall Glacier, 2016
-image: /media/img/galleries/inside-mendenhall-glacier/DSC_4644.jpg
-og_title: Scarce Art | Ice Cave Waterfall
+title: Scarce Art | Mendenhall Ice Cave
+description: Sunlight filters through the ice deep within the Mendenhall Glacier, 2016
+image: /media/img/galleries/inside-mendenhall-glacier/DSC_5403.jpg
+og_title: Sunlight filters through the ice deep within the Mendenhall Glacier, 2016
 og_description: A waterfall within the Mendenhall Glacier, 2016
-og_image: /media/img/galleries/inside-mendenhall-glacier/DSC_4644.jpg
+og_image: /media/img/galleries/inside-mendenhall-glacier/DSC_5403.jpg
 og_type: website
 tags:
 ---
@@ -17,7 +17,7 @@ tags:
 <p>A waterfall within the Mendenhall Glacier, 2016</p>
 
 <figure>
-<img src="/media/img/galleries/inside-mendenhall-glacier/DSC_4644.jpg">
+<img src="/media/img/galleries/inside-mendenhall-glacier/DSC_5403.jpg">
 </figure>
 
 <p><strong>Purchase Prints</strong></p>
@@ -34,7 +34,7 @@ tags:
 
 <section class="gallery">
 	<figure>
-		<div id='product-component-7a452a296d3'></div>
+		<div id='product-component-fbe3a686766'></div>
 	</figure>
 </section>
 
@@ -72,19 +72,24 @@ tags:
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1752268603510],
-        node: document.getElementById('product-component-7a452a296d3'),
+        id: [1752280989814],
+        node: document.getElementById('product-component-fbe3a686766'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
+    "buttonDestination": "modal",
     "variantId": "all",
     "width": "240px",
     "contents": {
       "imgWithCarousel": false,
       "variantTitle": false,
+      "options": false,
       "description": false,
       "buttonWithQuantity": false,
       "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
     },
     "styles": {
       "product": {
@@ -94,6 +99,23 @@ tags:
           "margin-left": "0",
           "margin-bottom": "50px"
         }
+      },
+      "button": {
+        "background-color": "#3300ff",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
       },
       "compareAt": {
         "font-size": "12px"
@@ -105,6 +127,18 @@ tags:
       "button": true
     },
     "styles": {
+      "button": {
+        "background-color": "#3300ff",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
       "footer": {
         "background-color": "#ffffff"
       }
@@ -126,6 +160,39 @@ tags:
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        "background-color": "#3300ff",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#3300ff",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "count": {
+        "font-size": "14px"
       }
     }
   },
