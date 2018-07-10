@@ -35,7 +35,7 @@ tags:
 
 <section class="gallery">
 	<figure>
-		<div id='product-component-58139771be6'></div>
+	   <div id='product-component-ecf5dd3ca30'></div>
 	</figure>
 </section>
 
@@ -74,18 +74,23 @@ tags:
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [1731114008694],
-        node: document.getElementById('product-component-58139771be6'),
+        node: document.getElementById('product-component-ecf5dd3ca30'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
+    "buttonDestination": "modal",
     "variantId": "all",
     "width": "240px",
     "contents": {
       "imgWithCarousel": false,
       "variantTitle": false,
+      "options": false,
       "description": false,
       "buttonWithQuantity": false,
       "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
     },
     "styles": {
       "product": {
@@ -95,6 +100,23 @@ tags:
           "margin-left": "0",
           "margin-bottom": "50px"
         }
+      },
+      "button": {
+        "background-color": "#3300ff",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
       },
       "compareAt": {
         "font-size": "12px"
@@ -106,6 +128,18 @@ tags:
       "button": true
     },
     "styles": {
+      "button": {
+        "background-color": "#3300ff",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
       "footer": {
         "background-color": "#ffffff"
       }
@@ -127,6 +161,39 @@ tags:
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        "background-color": "#3300ff",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#3300ff",
+        ":hover": {
+          "background-color": "#5700ff"
+        },
+        ":focus": {
+          "background-color": "#5700ff"
+        }
+      },
+      "count": {
+        "font-size": "14px"
       }
     }
   },
