@@ -3,5 +3,5 @@ description: Photography
 markdown: kramdown 
 exclude: ["scss", "Gemfile","Gemfile.lock", "README.md","config.rb"]
 disqus_short_name: "Ryan McKnight"
-url: http://www.scarceart.com
+url: https://www.scarceart.com
 include: [".well-known"]
