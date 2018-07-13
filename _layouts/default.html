@@ -4,10 +4,10 @@
 		<meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{ site.github.url }}/stylesheets/app.css" />
+        <link rel="stylesheet" href="{{ site.url }}/stylesheets/app.css" />
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
-        <script src="{{ site.github.url }}/js/classie.js"></script>
+        <script src="{{ site.url }}/js/classie.js"></script>
 		<link rel="alternate" type="application/rss+xml" title="Scarce Art RSS" href="http://mcknightstudio.com/feed.xml" />
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 		<meta property="og:title" content="{{ page.og_title }}" />
@@ -29,9 +29,9 @@
 	
 	<body class="top-nav-push">
 		<div class="menu-wrapper hide-on-desktop">
-			<a href="{{ site.github.url }}"><img src="/media/img/logo.png" class="logo"></a>
+			<a href="{{ site.url }}"><img src="/media/img/logo.png" class="logo"></a>
 			{% include nav-mobile.html navclass='nav-top' %}
-			<a id="showTopPush" class="main-menu-btn">Menu <img src="{{ site.github.url }}/media/img/menu-icon.png" width="25" height="14" class="hamburger-icon"></a>
+			<a id="showTopPush" class="main-menu-btn">Menu <img src="{{ site.url }}/media/img/menu-icon.png" width="25" height="14" class="hamburger-icon"></a>
 		</div>
 		<header class="header">
 			{% include nav-desktop.html navclass='nav-top' %}
