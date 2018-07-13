@@ -543,7 +543,7 @@ header {
   background: #191b22;
   position: fixed;
   width: 100%;
-  height: 52px;
+  height: 206px;
   left: 0;
   z-index: 1000;
   overflow: hidden; }
@@ -552,12 +552,12 @@ header {
   text-align: right; }
 .top-nav ul li {
   list-style-type: none;
-  text-transform: uppercase;
   display: block;
   margin: 0;
   text-align: center; }
 .top-nav ul li a {
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: Raleway, sans-serif; }
 .top-nav ul li .menu-link {
   border-bottom: solid 1px #fff;
   text-decoration: none;
@@ -605,7 +605,7 @@ header {
   vertical-align: middle; }
 
 .top-nav {
-  top: -52px; }
+  top: -206px; }
 
 .top-nav.top-nav-open {
   top: 0px; }
@@ -616,7 +616,7 @@ header {
   top: 0; }
 
 .top-nav-push-down {
-  top: 52px; }
+  top: 206px; }
 
 /* Transitions */
 .top-nav, .top-nav-push {
@@ -642,7 +642,6 @@ header {
     padding: 0;
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
     vertical-align: top; }
   .top-nav-desktop ul li a:hover {
     text-decoration: underline; }
